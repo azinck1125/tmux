@@ -26,7 +26,7 @@ link_dir() {
   ln -s "$src" "$dest"
 }
 
-link_dir "$DOTFILES_DIR" "$HOME/.config/tmux/"
+link_dir "$DOTFILES_DIR/tmux.conf" "$HOME/.tmux.conf"
 
 # 2) Install TPM if missing
 if [ ! -d ~/.tmux/plugins/tpm ]; then
