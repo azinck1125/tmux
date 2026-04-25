@@ -7,7 +7,7 @@ Minimal, portable tmux setup with a self-contained bootstrap script.
 Clone the repo wherever you want:
 
 ```bash
-git clone <repo-url> ~/dotfiles/tmux
+git clone git@github.com:azinck1125/tmux.git ~/dotfiles/tmux
 cd ~/dotfiles/tmux
 ./bootstrap-tmux.sh
 ```
@@ -105,7 +105,7 @@ Then re-run:
 ## TL;DR
 
 ```bash
-git clone <repo-url> ~/dotfiles/tmux
+git clone git@github.com:azinck1125/tmux.git ~/dotfiles/tmux
 cd ~/dotfiles/tmux
 ./bootstrap-tmux.sh
 ```
